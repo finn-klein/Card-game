@@ -1,0 +1,21 @@
+Call all handlers from game loop (attacks, summons, etc)? What about dying cards? Seems clunky if the game loop has to check if a monster
+    lost all HP after an attack. Outline which handlers are called internally and which are called from game loop
+
+Use state machine to implement turn phases
+
+Top card of deck is self.deck[-1]
+
+Use Player class to interface with Card objects
+    -> need some sort of indicator per card which event handlers are available
+    -> effects which will always trigger vs effects which have to be activated by the player
+
+"on_"-event handlers only for side effects?
+or methods like "take_damage" for standard game logic?
+goal: event handlers should not interact with the events that called them -> somewhat of a hierarchical structure
+
+Checks in same methods that implement game logic? Nott
+
+Should I pass the name to super()? It is not important to game logic
+
+How to select card for tribute in summon_preparation?
+-> frontend thing

@@ -1,0 +1,38 @@
+Summon:
+    Tribute
+    Special Summon
+    Normal Summon
+    Set
+    Flip Summon
+
+Stats:
+    increase/decrease Attack
+    increase/decrease Defense
+    increase/decrease Level
+    change position
+
+Destroy:
+    Send to GY
+    Return to hand
+    Return to deck
+
+LP:
+    Increase/Decrease LP
+
+Deck:
+    Shuffle
+    Draw
+
+Attack:
+    Attack
+    Taunt
+
+Spells/Traps:
+    Set
+
+Card Effects:
+    Activate
+    Cancel
+
+Triggers:
+    One for each action
